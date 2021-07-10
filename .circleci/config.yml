@@ -6,5 +6,4 @@ orbs:
 workflows:
   maven_test:
     jobs:
-      - maven/test:
-          test_results_path: /home/circleci/project/test-output/Suite
+      - maven/test
